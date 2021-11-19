@@ -1,0 +1,12 @@
+{
+  "defaultCommandTimeout": 20000,
+  "pageLoadTimeout": 20000,
+  "ignoreTestFiles": ["*.js", "*.md", "*.png"],
+  "screenshotsFolder": "./cypress/integration/evidence",
+  "trashAssetsBeforeRuns": true,
+  "env": {
+    "failSilently": false
+  },
+  "video": false,
+  "customSnapshotsDir": "default"
+}
